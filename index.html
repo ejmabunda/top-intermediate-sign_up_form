@@ -31,8 +31,9 @@ silhouette photo of six persons on top of mountain Chang Duong
 
   <body>
     <header>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
-        <text x="10" y="10">BEKA</text>
+      <svg height="40" width="250" xmlns="http://www.w3.org/2000/svg">
+        <text x="5" y="30" fill="white" rotate="10" font-size="35">News<tspan fill="none" stroke="white">letter</tspan>
+        </text>
       </svg>
       <figure>
         <img
@@ -43,7 +44,7 @@ silhouette photo of six persons on top of mountain Chang Duong
         />
         <figcaption>
           Photo by <a href="https://unsplash.com/@iamchang">Chang Duong</a> on
-          <a href="www.unsplash.com">Unsplash</a>
+          <a href="https://www.unsplash.com">Unsplash</a>
         </figcaption>
       </figure>
     </header>
@@ -56,23 +57,62 @@ silhouette photo of six persons on top of mountain Chang Duong
       </p>
 
       <form action="#" method="post">
-        <label for="first_name">* First name</label>
-        <input type="text" id="first_name" name="first_name" required/>
+        <label for="first_name"
+          >First name *:
+          <input
+            type="text"
+            id="first_name"
+            name="first_name"
+            required
+            autocomplete="name"
+          />
+        </label>
 
-        <label for="last_name">* Last name</label>
-        <input type="text" id="last_name" name="last_name" required/>
+        <label for="last_name"
+          >Last name *:
+          <input
+            type="text"
+            id="last_name"
+            name="last_name"
+            required
+            autocomplete="family-name"
+          />
+        </label>
 
-        <label for="email">* Email</label>
-        <input type="email" id="email" name="email" required/>
+        <label for="email"
+          >Email *:
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            autocomplete="email"
+          />
+        </label>
 
-        <label for="phone_number">* Phone number</label>
-        <input type="tel" id="phone_number" name="phone_number" required/>
+        <label for="phone_number"
+          >Phone number *:
+          <input
+            type="tel"
+            id="phone_number"
+            name="phone_number"
+            required
+            autocomplete="mobile"
+        /></label>
 
-        <label for="password">* Password</label>
-        <input type="password" id="password" name="password" required/>
+        <label for="password"
+          >Password *:
+          <input type="password" id="password" name="password" required
+        /></label>
 
-        <label for="confirm_password">* Confirm password</label>
-        <input type="confirm_password" id="confirm_password" name="confirm_password" required/>
+        <label for="confirm_password"
+          >Confirm password *:
+          <input
+            type="confirm_password"
+            id="confirm_password"
+            name="confirm_password"
+            required
+        /></label>
 
         <input type="submit" name="submit" id="submit" />
       </form>

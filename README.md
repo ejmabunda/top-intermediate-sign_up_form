@@ -1,4 +1,4 @@
-# Sign-Up Form Project
+# Sign-Up Form
 
 ## Overview
 
@@ -24,7 +24,7 @@ To get a local copy up and running, follow these simple steps, alternatively her
    ```
 2. **Navigate to the project directory:**
    ```sh
-   cd sign_up_form
+   cd top-intemediate-sign_up_form
    ```
 3. **Open the `index.html` file in your browser:**
    ```sh

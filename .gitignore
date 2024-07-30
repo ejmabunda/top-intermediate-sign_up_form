@@ -3,3 +3,7 @@ venv/
 
 # Ignore design files
 img/design/
+
+# Ignore SASS temp files
+.sass-cache/
+*.css.map
