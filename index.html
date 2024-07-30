@@ -1,0 +1,86 @@
+<!-- 
+Welcome to Our Community! Join us today and enjoy exclusive benefits as a
+member. Sign up now by filling in the information below. First Name: Please
+enter your first name. Last Name: Please enter your last name. Email Address:
+Your email address will be used for account verification and communication.
+Password: Create a strong password to keep your account secure. Phone Number:
+Enter your phone number for account recovery and notifications. Images
+https://images.unsplash.com/photo-1506869640319-fe1a24fd76dc?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+silhouette photo of six persons on top of mountain Chang Duong
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/modern-normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Sign up to our newsletter</title>
+  </head>
+
+  <body>
+    <header>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">
+        <text x="10" y="10">BEKA</text>
+      </svg>
+      <figure>
+        <img
+          srcset="/img/header-img-480w.jpg 480w, /img/header-img-800w.jpg 800w"
+          sizes="(max-width: 480px) 480px, 800px"
+          alt="silhouette photo of six persons on top of mountain"
+          src="/img/header-img.jpg"
+        />
+        <figcaption>
+          Photo by <a href="https://unsplash.com/@iamchang">Chang Duong</a> on
+          <a href="www.unsplash.com">Unsplash</a>
+        </figcaption>
+      </figure>
+    </header>
+
+    <main>
+      <h1>Welcome to Our Community!</h1>
+      <p>
+        Join us today and enjoy exclusive benefits as a member. Sign up to our
+        newsletter by filling in the information below.
+      </p>
+
+      <form action="#" method="post">
+        <label for="first_name">* First name</label>
+        <input type="text" id="first_name" name="first_name" />
+
+        <label for="last_name">* Last name</label>
+        <input type="text" id="last_name" name="last_name" />
+
+        <label for="email">* Email</label>
+        <input type="email" id="email" name="email" />
+
+        <label for="phone_number">* Phone number</label>
+        <input type="tel" id="phone_number" name="phone_number" />
+
+        <label for="password">* Password</label>
+        <input type="password" id="password" name="password" />
+
+        <label for="confirm_password">* Confirm password</label>
+        <input
+          type="confirm_password"
+          id="confirm_password"
+          name="confirm_password"
+        />
+
+        <input type="submit" name="submit" id="submit" />
+      </form>
+      <p>Already have an account? <a href="#">Login</a></p>
+    </main>
+  </body>
+</html>
