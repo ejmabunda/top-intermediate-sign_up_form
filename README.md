@@ -16,7 +16,7 @@ A simple web-based sign-up form designed to collect user information. It is buil
 - **CSS3:** For styling the form and making it visually appealing.
 
 ## Installation
-To get a local copy up and running, follow these simple steps, alternatively here's a [preview link](https://ejmabunda.github.io/top-intemediate-sign_up_form):
+To get a local copy up and running, follow these simple steps, alternatively here's a [preview link](https://ejmabunda.github.io/top-intermediate-sign_up_form):
 
 1. **Clone the repository:**
    ```sh
